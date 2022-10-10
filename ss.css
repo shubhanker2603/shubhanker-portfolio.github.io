@@ -591,7 +591,7 @@ ul li:hover{
 
    }
 
-   @media screen and (max-width: 610px){
+   @media screen and ((min-width:480px) and   (max-width: 610px)){
 
     nav a{
         margin-right: 0;
@@ -719,6 +719,288 @@ ul li:hover{
      }
 
    }
+
+   @media screen and ((max-width: 390px) and (max-width:480px)){
+
+    .self{
+        margin-left: 5px;
+    }
+
+    nav a{
+        margin-right: 0;
+    }
+
+    .start{
+        height: 700px;
+    }
+
+    .intro{
+        display: block;
+    }
+
+    .d2{
+        height:auto;
+    }
+
+    .techs{
+        height:auto;
+    }
+
+    .project{
+        height:auto;
+    }
+
+    .contact{
+        height: auto;
+    }
+
+    .main{
+        display: block;
+        margin-left: 50px;
+    }
+    
+    .skills{
+        display: block;
+        margin-left: 50px;
+    }
+
+    .project{
+        display: block;
+        
+    }
+
+    .techskills{
+        margin-left: 20px;
+    }
+
+    .designskills{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .wrapper{
+        margin-top: 30px;
+    }
+
+    .pro-in{
+        margin-top: 100px;
+    }
+
+    .form{
+        width:340px;
+        height:640px;
+        
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .social-media{
+        display: block;
+        margin-left: 20px;
+    }
+
+    #insta{
+        
+        align-items: center;
+        display: inline;
+        margin-left: 50px;
+       }
+
+     #thanks{
+        margin-left: 10px;
+        margin-top: 20px;
+     }  
+
+     .profile
+     {
+        margin-top: 160px;
+     }
+
+     .techs1{
+        font-size: 25px;
+     }
+
+     .techs2{
+        font-size: 25px;
+     }
+
+     #location{
+        margin-left: 100px;
+     }
+
+     .boundary{
+        border: none;
+     }
+
+     .edu{
+        font-size: 50px;
+     }
+
+     .about{
+        margin-left: 60px;
+        font-size: 15px;
+     }
+
+     .profile{
+        margin-top: 80px;
+        margin-left: 40px;
+        height: 350px;
+        width: 320px;
+        border-radius: 10%;
+        border: 10px solid #dc9df0;
+     }
+
+   }
+
+   @media screen and (max-width: 390px){
+
+    .self{
+        margin-left: 0;
+    }
+
+    nav a{
+        margin-right: 0;
+    }
+
+    .start{
+        height: 700px;
+    }
+
+    .intro{
+        display: block;
+    }
+
+    .d2{
+        height:auto;
+    }
+
+    .techs{
+        height:auto;
+    }
+
+    .project{
+        height:auto;
+    }
+
+    .contact{
+        height: auto;
+    }
+
+    .main{
+        display: block;
+        margin-left: 0;
+    }
+    
+    .skills{
+        display: block;
+        margin-left: 0;
+    }
+
+    .project{
+        display: block;
+        
+    }
+
+    .techskills{
+        margin-left: 0;
+    }
+
+    .designskills{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .wrapper{
+        margin-top: 30px;
+    }
+
+    .pro-in{
+        margin-top: 100px;
+    }
+
+    .form{
+        width:240px;
+        height:440px;
+        
+    }
+
+    footer{
+        height: auto;
+    }
+
+    .social-media{
+        display: block;
+        margin-left: 10px;
+    }
+
+    #insta{
+        
+        align-items: center;
+        display: inline;
+        margin-left: 20px;
+       }
+
+     #thanks{
+        margin-left: 10px;
+        margin-top: 20px;
+     }  
+
+     .profile
+     {
+        margin-top: 160px;
+     }
+
+     .techs1{
+        font-size: 25px;
+     }
+
+     .techs2{
+        font-size: 25px;
+     }
+
+     #location{
+        margin-left: 30px;
+     }
+
+     .boundary{
+        border: none;
+     }
+
+     .edu{
+        font-size: 50px;
+     }
+
+     .about{
+        margin-left: 0;
+        font-size: 15px;
+     }
+
+     .profile{
+        margin-top: 80px;
+        margin-left: 0;
+        height: 250px;
+        width: 220px;
+        border-radius: 10%;
+        border: 10px solid #dc9df0;
+     }
+
+     .name{
+        margin-left: 0;
+     }
+
+     .hello{
+        margin-left: 0;
+     }
+
+     .phone-mail{
+        right: 0;
+        width: 230px;
+     }
+
+   }
+
 
    @media screen and (max-width: 815px) {
     nav a:not(:first-child) {display: none;}
