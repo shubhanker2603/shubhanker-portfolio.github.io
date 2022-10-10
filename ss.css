@@ -593,6 +593,10 @@ ul li:hover{
 
    @media screen and (max-width: 610px){
 
+    nav a{
+        margin-right: 0;
+    }
+
     .start{
         height: 700px;
     }
